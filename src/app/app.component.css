@@ -1,0 +1,42 @@
+.subtitle-container {
+    background-color: #222;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.control-panel {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.control-panel button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.drop-container {
+    width: 99%;
+    height: 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 70px;
+    color: #333;
+    border: 5px dashed #222;
+}
+.drop-container.fileIsOver, .drop-container:hover {
+    color: #aaa;
+    border: 5px dashed #aaa;
+}

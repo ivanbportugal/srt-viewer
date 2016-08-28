@@ -1,0 +1,16 @@
+<div class="subtitle-container">
+    <h1 class="subtitle-text">
+        {{title}}
+    </h1>
+    <div fileDrop
+        class="drop-container"
+        [ngClass]="{'file-is-over': fileIsOver}"
+        [options]="options"
+        (fileOver)="fileOver($event)"
+        (onFileDrop)="onFileDrop($event)">
+        Drop SRT file here
+    </div>
+    <div class="control-panel">
+        <button (click)="togglePlayback()">Play/Pause</button>
+    </div>
+</div>
