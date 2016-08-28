@@ -1,6 +1,6 @@
-# Subtitles
+# SRT Viewer
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
+Viewer SRT files in a "player". This is just a client side app so you have to drag and drop the file on the page to get the player to work. Not much effort was spent on the look and feel, it just works... Make sure that your file is trimmed (no trailing spaces at the end)
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
