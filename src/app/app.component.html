@@ -1,6 +1,5 @@
 <div class="subtitle-container">
-    <h1 class="subtitle-text">
-        {{title}}
+    <h1 class="subtitle-text" [innerHTML]="title">
     </h1>
     <div fileDrop
         class="drop-container"
@@ -11,6 +10,8 @@
         Drop SRT file here
     </div>
     <div class="control-panel">
+        <h1 class="clock">{{clock}}</h1>
+        <div id="slider"></div>
         <button (click)="togglePlayback()">Play/Pause</button>
     </div>
 </div>

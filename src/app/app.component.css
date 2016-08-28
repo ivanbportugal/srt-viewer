@@ -12,6 +12,17 @@
     top: 0;
 }
 
+.subtitle-text {
+    font-size: 4em;
+}
+
+.clock {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: #aaa;
+}
+
 .control-panel {
     width: 100%;
     position: absolute;
